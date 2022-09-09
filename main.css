@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#main-block {
+    border: 5px solid blue;
+    border-radius: 20px;
+    width: 70%;
+    margin-left: 15%;
+    background-image: url(car-1.jpg);
+    background-size: cover;
+    height: 70vh;
+    margin-top: 15vh;
+}
+#left-button {
+    width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-right: 20px solid blue;
+	border-bottom: 10px solid transparent;
+    display: inline-block;
+    margin: 10px;
+}
+#right-button {
+    width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-left: 20px solid blue;
+	border-bottom: 10px solid transparent;
+    float: right;
+    margin: 10px;
+}
